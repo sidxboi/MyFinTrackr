@@ -1,0 +1,43 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/analytics": [
+		"src/routes/+layout.js"
+	],
+	"/api/login": [
+		"src/routes/api/login/+server.js"
+	],
+	"/api/logout": [
+		"src/routes/api/logout/+server.js"
+	],
+	"/api/register": [
+		"src/routes/api/register/+server.js"
+	],
+	"/budget": [
+		"src/routes/+layout.js"
+	],
+	"/dashboard": [
+		"src/routes/dashboard/+page.server.js",
+		"src/routes/+layout.js"
+	],
+	"/expenses": [
+		"src/routes/+layout.js"
+	],
+	"/(auth)/login": [
+		"src/routes/+layout.js"
+	],
+	"/recurring": [
+		"src/routes/+layout.js"
+	],
+	"/(auth)/register": [
+		"src/routes/+layout.js"
+	],
+	"/transactions": [
+		"src/routes/+layout.js"
+	],
+	"/transactions/add": [
+		"src/routes/+layout.js"
+	]
+}

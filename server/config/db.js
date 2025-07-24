@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const MONGODB_URI = 'mongodb+srv://sidhant:123456sidhant@cluster0.sbyulpg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const MONGODB_URI = 'mongodb+srv://username:yourpassword@cluster0.sbyulpg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 if (!MONGODB_URI) {
   throw new Error('❌ MONGODB_URI is undefined. Check .env file and dotenv config.');
